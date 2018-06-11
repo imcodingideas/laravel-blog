@@ -1,10 +1,11 @@
 @extends ('layouts.master')
 
 @section ('content')
-  <h1>Create Post</h1>
+  <h1>Publish a Post</h1>
   <hr>
 
   <form method="POST" action="/posts">
+    @csrf
     <div class="form-group">
       <label for="title">Title</label>
       <input type="text" class="form-control" id="title" placeholder="Post Title" name="title">

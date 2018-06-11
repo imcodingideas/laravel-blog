@@ -47,11 +47,6 @@
 
           @yield ('content')
 
-          <nav class="blog-pagination mt-3">
-            <a class="btn btn-outline-primary" href="#">Older</a>
-            <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
-          </nav>
-
         </div><!-- /.blog-main -->
 
         @include ('layouts.sidebar')
